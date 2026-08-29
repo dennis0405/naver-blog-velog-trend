@@ -1,0 +1,367 @@
+{
+  "created_at": "2026-08-29T13:05:36+09:00",
+  "items": [
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "7b2bfa0c2ccabc6ac85264caa5510a99092ce8d538bc9e199522cc486c83f572",
+      "canonical_url": "https://blog.kyowon.co.kr/477",
+      "fetched_at": "2026-08-29T13:04:36+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "075a794a3d36be15a5a9b19ec2c0b0d05c3252794cd5126dbc1839244e692337",
+      "canonical_url": "https://easy-code-yo.tistory.com/55",
+      "fetched_at": "2026-08-29T13:04:38+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "b99bd6c487ba1d55af1e87ef9229235de83af34b42132b7d966af04aa0badc34",
+      "canonical_url": "https://blog.aladin.co.kr/785877103/3291070",
+      "fetched_at": "2026-08-29T13:04:39+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "error"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "5a533854d3f7cfdfbcaf006604b918f28b040f6bfc4c1eb0cc0a24c8080971a1",
+      "canonical_url": "https://blog.aladin.co.kr/766427169/11714918",
+      "fetched_at": "2026-08-29T13:04:39+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "error"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "0ed3fdb7401931c02dfe5d2500a5b16ba9e21ca4ab3098b3b72722049ea46e7b",
+      "canonical_url": "https://amunabaraba.tistory.com/13743539",
+      "fetched_at": "2026-08-29T13:04:41+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "43c4140a24628cdc686061573ef33a3edbfba896a09320c9afe85112f4f856c2",
+      "canonical_url": "https://jennifersoft.tistory.com/103",
+      "fetched_at": "2026-08-29T13:04:44+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "8bddc08f08f0b7ab2d47dcfb1dea14d7fbead581df3f482a990ecc7beacdc249",
+      "canonical_url": "https://playgroundblog.tistory.com/622",
+      "fetched_at": "2026-08-29T13:04:46+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "a9037060b3107d3bf60d6ef40e43ded0410eae59241a3145a8ea15d2b8c229a3",
+      "canonical_url": "https://roadbook.co.kr/229",
+      "fetched_at": "2026-08-29T13:04:48+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "2e1609b7a73bbc3ff30df6cddfd8b7649a569b909ded261f884dc04f841031d8",
+      "canonical_url": "https://baldeagle.tistory.com/105",
+      "fetched_at": "2026-08-29T13:04:50+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "18b3e003168cfd77ab64fe5e9843f48cdc18f500b66c8b153c04b62318cf2531",
+      "canonical_url": "https://blog.aladin.co.kr/763175173/15549910",
+      "fetched_at": "2026-08-29T13:04:50+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "error"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "0fa011364b1785efebec56003cfb8af9df565d30741b156b5e515aad2243002a",
+      "canonical_url": "https://peterica.tistory.com/247",
+      "fetched_at": "2026-08-29T13:04:52+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "ffe4e38d6853b41b54b4ebc8b4c3b2afdbd9e19c430ae5a40297b3bd6744a985",
+      "canonical_url": "https://blog.aladin.co.kr/769422160/8264380",
+      "fetched_at": "2026-08-29T13:04:53+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "error"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "62d87d11818e8890feb2a68e5479576fbe3350a0eff839e09b504ffbbb553eca",
+      "canonical_url": "https://aws-hyoh.tistory.com/225",
+      "fetched_at": "2026-08-29T13:04:54+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "7597e25044292367f53295c93a5eae2212e9a2263f5861a01af335fde79fdeca",
+      "canonical_url": "https://btcd.tistory.com/521",
+      "fetched_at": "2026-08-29T13:04:56+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "b51306e45b890b665b57510a3b457807c5e0424e571ecab88e4bd2ec3fb9f3f9",
+      "canonical_url": "https://blog.aladin.co.kr/706155114/16309007",
+      "fetched_at": "2026-08-29T13:04:57+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "error"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "0280771dc1ac9ac66c19b7eb3773ac190a3dd2137242ac24d4781422f642c16e",
+      "canonical_url": "https://blog.naver.com/buksamfight/223388544425",
+      "fetched_at": "2026-08-29T13:04:58+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "9d2656852f62ad46b1142bd3b23fda37cfba517f703cde89746d58aae65c2107",
+      "canonical_url": "https://javaexpert.tistory.com/1485",
+      "fetched_at": "2026-08-29T13:05:00+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "4ff2de83be845ca8166213fc5deac126d53f59b47a50e9fefa735eca2404207c",
+      "canonical_url": "https://snupi.tistory.com/212",
+      "fetched_at": "2026-08-29T13:05:02+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "beffea3cd49552bb3681c623aab8fab37d676d1387e39a81f6642fcbf3a80773",
+      "canonical_url": "https://newdeal123.tistory.com/89",
+      "fetched_at": "2026-08-29T13:05:04+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "0627c562cd516f0695f6c8457150fea29aa80f5ccef269fb13b3014dfb203388",
+      "canonical_url": "https://okeybox.tistory.com/314",
+      "fetched_at": "2026-08-29T13:05:06+09:00",
+      "retained_until": "2026-09-05",
+      "source": "naver",
+      "status": "error"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "65056da4-a506-4e0c-9bd1-ae2c97b53fdf",
+      "canonical_url": "https://velog.io/@yereumi/%EC%B7%A8%EC%97%85%EC%9D%84-%ED%95%98%EB%8B%A4-feat.-%EC%8B%B8%ED%83%88",
+      "fetched_at": "2026-08-29T13:05:07+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "c4d5cecc-2437-4629-ad27-58c59bde8dca",
+      "canonical_url": "https://velog.io/@vxdeveloper/object",
+      "fetched_at": "2026-08-29T13:05:10+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "31bf5d7e-2154-4afd-b3f9-1363c3b272e0",
+      "canonical_url": "https://velog.io/@ayoung_dev/%ED%86%A0%EC%8A%A4-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%BD%94%EB%93%9C-%EC%8A%A4%ED%83%80%EC%9D%BC",
+      "fetched_at": "2026-08-29T13:05:11+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "6dba5c4c-dd13-4465-884e-dcae1d293962",
+      "canonical_url": "https://velog.io/@aimors/AI-%EB%85%BC%EB%AC%B8-%EC%9D%BD%EA%B8%B0-%EC%8B%9C%EA%B3%84%EC%97%B4%EC%97%90%EB%8F%84-RAG%EB%A5%BC-%EC%93%B8-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C-RATFM",
+      "fetched_at": "2026-08-29T13:05:14+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "311532c7-8dbc-4353-9665-20ee96af881d",
+      "canonical_url": "https://velog.io/@teamuns2026/TEAM-UNS-%EA%B7%B8%EB%93%A4%EC%9D%80-%EB%88%84%EA%B5%AC%EC%9D%B8%EA%B0%80",
+      "fetched_at": "2026-08-29T13:05:15+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "f057fa49-2758-42e4-8772-10e56e1eb8aa",
+      "canonical_url": "https://velog.io/@dydwkd486/AI%EC%9D%98-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%83%9D%EA%B0%81",
+      "fetched_at": "2026-08-29T13:05:17+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "0a2bc034-0e32-4726-8ea9-23568801a107",
+      "canonical_url": "https://velog.io/@hoheesu/%EB%8C%80-AI-%EC%8B%9C%EB%8C%80%EC%97%90-%EC%82%B4%EC%95%84%EB%82%A8%EB%8A%94-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%90%98%EB%A0%A4%EB%A9%B4",
+      "fetched_at": "2026-08-29T13:05:18+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "d04803b1-0550-4f09-9dcd-8859713c48f2",
+      "canonical_url": "https://velog.io/@minkyu727/%EB%90%98%EA%B0%90%EA%B8%B0%EB%8A%94-%EB%AA%A9%EC%A0%81%EC%A7%80%EA%B0%80-%EC%95%84%EB%8B%88%EB%9D%BC-%EB%B0%A9%ED%96%A5",
+      "fetched_at": "2026-08-29T13:05:19+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "284db007-9b05-456e-9aec-d535cd766354",
+      "canonical_url": "https://velog.io/@jinriro/ROT-01-Rilog.-%EA%B8%B0%ED%9A%8D-%ED%9A%8C%EA%B3%A0",
+      "fetched_at": "2026-08-29T13:05:21+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "290ae4e9-ed95-4120-9d3b-04f3f5020187",
+      "canonical_url": "https://velog.io/@rogeaustine/%EC%9D%B4%EB%B9%A8%EC%9D%84-%EB%BD%91%EC%95%98%EC%8A%B5%EB%8B%88%EB%8B%A4",
+      "fetched_at": "2026-08-29T13:05:22+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "8d273927-b522-4f86-975a-58ac151a371a",
+      "canonical_url": "https://velog.io/@sehyunny/rust-is-eating-js",
+      "fetched_at": "2026-08-29T13:05:24+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "f479180c-5e72-434c-93dd-b60fa750dbbf",
+      "canonical_url": "https://velog.io/@bbzjun/%ED%8C%90%EC%82%AC-%EA%B5%AD%EB%B0%A9%EB%B6%80%EC%9D%98-%EC%95%A4%EC%8A%A4%EB%A1%9C%ED%94%BD-%EA%B3%B5%EA%B8%89%EB%A7%9D-%EC%9C%84%ED%97%98-%EC%A7%80%EC%A0%95-%EC%B5%9C%EC%A2%85-%EC%9C%84%EB%B2%95-%ED%8C%90%EA%B2%B0%EA%B5%AD%EA%B0%80%EC%95%88%EB%B3%B4-%EB%AA%85%EB%AA%A9-%EB%B3%B4%EB%B3%B5%EC%97%90-%EC%A0%9C%EB%8F%99-2026-08-28",
+      "fetched_at": "2026-08-29T13:05:25+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "e3921d7e-0b67-46e8-928b-0826f5c0c7bc",
+      "canonical_url": "https://velog.io/@teamuns2026/%EB%82%99%EC%84%9C-%EA%B0%99%EC%9D%80-%EC%86%90%EC%8A%A4%EC%BC%80%EC%B9%98%EA%B0%80-%EC%A7%84%EC%A7%9C-%ED%99%94%EB%A9%B4UI%EC%9D%B4-%EB%90%98%EA%B8%B0%EA%B9%8C%EC%A7%80",
+      "fetched_at": "2026-08-29T13:05:26+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "643f0dc0-58dc-4f49-95db-57ffb3dca111",
+      "canonical_url": "https://velog.io/@imcherish_chou/19",
+      "fetched_at": "2026-08-29T13:05:27+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "f86fc7be-cfda-4fa5-99e3-8f39be345b8f",
+      "canonical_url": "https://velog.io/@ehddms0517/%EC%9A%B0%ED%85%8C%EC%BD%94%EA%B0%80-%EB%B0%98%EB%9E%80%EA%B5%B0%EC%9D%B4-%EB%90%98%EB%9D%BC%EA%B8%B8%EB%9E%98-%EC%A7%84%EC%A7%9C-%EB%B0%98%EB%9E%80%ED%95%B4%EB%B4%84",
+      "fetched_at": "2026-08-29T13:05:29+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "85303335-99b9-4c41-bd8f-4e899ee8db35",
+      "canonical_url": "https://velog.io/@dfrake/LG-CNS-6%EA%B8%B0-%EB%B3%B8-%EA%B3%BC%EC%A0%95-23%EC%9D%BC%EC%B0%A8-TIL-DB-%EC%99%B8%EB%9E%98%ED%82%A4-ALTER-TABLE-VIEW-DML",
+      "fetched_at": "2026-08-29T13:05:30+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "855cf6d4-52ba-441a-9f2a-09d1ce546777",
+      "canonical_url": "https://velog.io/@dfrake/%EA%B0%9C%EB%B0%9C%EC%9E%90-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%A0%9C%EC%9E%91%EA%B8%B0-2",
+      "fetched_at": "2026-08-29T13:05:31+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "c6620ab5-7f17-460e-a28f-feb8ffc73bc9",
+      "canonical_url": "https://velog.io/@nowd940/k8s-cluster-Endpoints-%EA%B0%80-%EB%B9%84%EC%97%88%EB%8A%94%EB%8D%B0-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EB%8A%94-%ED%95%98%EB%82%98%EB%8F%84-%EC%97%86%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4",
+      "fetched_at": "2026-08-29T13:05:34+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "ea720339-48dd-4503-b308-7d052af3508e",
+      "canonical_url": "https://velog.io/@sec_designer/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94-%EC%B7%A8%EC%A4%80%EC%83%9D-%EB%B3%B4%EB%94%94%EC%9E%85%EB%8B%88%EB%8B%A4",
+      "fetched_at": "2026-08-29T13:05:35+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-08-29/blog_bodies.jsonl",
+      "candidate_id": "95ff144f-c699-4e8f-b07f-92b2c20c6f7f",
+      "canonical_url": "https://velog.io/@rlaehddus302/Redis-Replication",
+      "fetched_at": "2026-08-29T13:05:36+09:00",
+      "retained_until": "2026-09-05",
+      "source": "velog",
+      "status": "ok"
+    }
+  ],
+  "raw_dir": "raw/2026-08-29",
+  "retention_days": 7
+}
