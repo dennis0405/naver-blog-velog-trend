@@ -2,13 +2,21 @@
 
 [SNU AI Challenge](https://snuaichallenge.github.io/)는 서울대학교 데이터사이언스대학원이 자체 가공한 데이터를 공개하고 국내외 대학 학부생이 최신 AI 모델을 직접 개발해 성능을 겨루도록 마련한 경진대회다. 2026년 주제는 **텍스트로 풀어보는 장면의 재구성**이었다. 스토리라인 문장과 뒤섞인 이미지 프레임 네 장을 보고 문맥에 맞는 시간 순서를 복원하는 멀티모달 추론 과제다.
 
-예선은 온라인으로 진행됐고, public leaderboard는 전체 test data 중 70%의 Exact Match Accuracy로 계산됐다. 나는 2026년 7월 9일부터 25일까지 멀티모달 모델 설계와 학습·추론 실험을 맡았다.
+예선은 온라인으로 진행됐다. 이 글의 점수는 모두 예선 public leaderboard의 Exact Match Accuracy다. Public leaderboard는 전체 test data 중 70%로 계산됐다. 나는 2026년 7월 9일부터 25일까지 멀티모달 모델 설계와 학습·추론 실험을 맡았다.
 
-실험 과정의 최고 public leaderboard Exact Match는 **0.86585**였다. 정답 순열을 한 번에 고르는 대신 이미지 간 선후 관계와 각 이미지의 위치를 나눠 학습하면서 얻은 결과다. 다만 점수보다 오래 남은 것은 좋은 아이디어를 내는 법보다 아이디어를 제대로 비교하는 법이었다. 이 글에는 그 판단 과정과 실패를 함께 기록한다.
+내가 진행한 실험에서 확인한 최고 public leaderboard Exact Match는 **0.86585**였다. 정답 순열을 한 번에 고르는 대신 이미지 간 선후 관계와 각 이미지의 위치를 나눠 학습하면서 얻은 결과다. 다만 점수보다 오래 남은 것은 좋은 아이디어를 내는 법보다 아이디어를 제대로 비교하는 법이었다. 이 글에는 내가 맡은 실험의 판단 과정과 실패를 함께 기록한다.
+
+## 논문 스터디 대신 대회를 택했다
+
+와플스튜디오 동아리에서 서울대학교 학부생 세 명이 AI 스터디 팀을 꾸렸다. 처음에는 논문을 읽고 토론하려 했지만, 하나의 문제를 정해 실제 실험까지 해보기로 방향을 바꿨다.
+
+AI 스터디를 대회 기반의 경험형 스터디로 바꾸고 세 명이 한 팀으로 참가했다. 정해진 데이터와 평가지표, 제출 환경 안에서 모델을 선택하고 학습하며 실패한 가설까지 비교하는 과정 자체가 목표였다.
+
+내가 맡은 범위는 멀티모달 모델 설계와 학습·추론 실험이었다. 이 글도 팀 전체의 결과보다 내가 담당한 실험과 그 과정에서 바뀐 판단 기준에 초점을 맞춘다.
 
 ## 문제는 네 장의 순서를 하나로 복원하는 일이었다
 
-겉으로 보면 과제는 단순하다. 사건을 설명하는 문장 하나와 시간 순서가 섞인 이미지 네 장이 주어지고, 각 이미지가 원래 몇 번째였는지 맞히면 된다.
+겉으로 보면 과제는 단순하다. 사건을 설명하는 문장 하나와 시간 순서가 섞인 이미지 네 장이 주어진다. 각 이미지가 원래 몇 번째였는지 맞히면 된다.
 
 예를 들어 실제 순서가 `A → C → D → B`라면 A, B, C, D의 위치는 각각 1, 4, 2, 3이다. 따라서 제출값은 `[1, 4, 2, 3]`이 된다. 평가 방식은 네 위치를 전부 맞혀야 정답으로 인정하는 Exact Match였다. 세 장을 맞히고 한 장을 틀려도 0점이다.
 
@@ -18,11 +26,11 @@
 2. 두 이미지 중 무엇이 먼저인지 판단해야 한다.
 3. 문장에 담긴 사건의 흐름과 이미지 네 장을 하나의 순서로 연결해야 한다.
 
-나는 이 문제를 **Language-guided Visual Temporal Ordering**으로 정의했다. 문제에 이름을 붙이자 탐색할 연구 범위도 선명해졌다. 이미지 분류보다 temporal ordering과 procedural reasoning에 가까운 선행 연구를 찾아보기 시작했고, 모델을 평가할 기준도 단순한 이미지 이해 능력에서 관계와 순서를 얼마나 잘 다루는지로 바뀌었다.
+나는 이 문제를 **Language-guided Visual Temporal Ordering**으로 정의했다. 문제에 이름을 붙이자 탐색할 연구 범위도 선명해졌다. 이미지 분류보다 temporal ordering과 procedural reasoning에 가까운 선행 연구를 찾아보기 시작했다. 모델을 평가할 기준도 단순한 이미지 이해 능력에서 관계와 순서를 얼마나 잘 다루는지로 바뀌었다.
 
 ## 정확도보다 먼저 제출 가능성을 확인했다
 
-대회 모델은 인터넷이 없는 환경에서 단일 RTX 3090 24GB에 올라가야 했고, 전체 테스트 추론을 24시간 안에 끝내야 했다. 외부 데이터, 상용 API, 앙상블에도 제약이 있었다.
+대회 모델은 인터넷이 없는 환경에서 단일 RTX 3090 24GB에 올라가야 했다. 전체 테스트 추론도 24시간 안에 끝내야 했다. 외부 데이터, 상용 API, 앙상블에도 제약이 있었다.
 
 초반에는 대회 규정과 실행 조건부터 Codex skill로 구조화했다. 모델이나 새로운 전처리 아이디어를 검토할 때마다 공개 시점, 외부 자원 사용 여부, VRAM, 추론 시간, 오프라인 재현 가능성을 같은 기준으로 확인하기 위해서였다.
 
@@ -55,17 +63,17 @@
 
 [Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization](https://arxiv.org/abs/2411.10442)은 약 300만 개의 multimodal preference sample로 구성된 MMPR dataset과 Mixed Preference Optimization, 즉 MPO를 제안한 논문이다. MPO는 response 사이의 상대 선호뿐 아니라 개별 response의 품질과 선호 답변의 생성 과정까지 함께 학습해 multimodal reasoning과 Chain-of-Thought 성능을 높이는 데 목적이 있다.
 
-논문은 InternVL2-8B-MPO를 중심으로 설명하지만, 대회에서 사용한 checkpoint는 같은 MPO 방식을 InternVL2.5 8B에 적용한 [InternVL2.5-8B-MPO](https://internvl.readthedocs.io/en/latest/internvl2.5/preference_optimization.html)였다. 범용 multimodal reasoning과 CoT가 강화된 8B급 모델이라는 점에서 두 번째 후보로 선택했다.
+논문은 InternVL2-8B-MPO를 중심으로 설명한다. 대회에서 사용한 checkpoint는 같은 MPO 방식을 InternVL2.5 8B에 적용한 [InternVL2.5-8B-MPO](https://internvl.readthedocs.io/en/latest/internvl2.5/preference_optimization.html)였다. 범용 multimodal reasoning과 CoT가 강화된 8B급 모델이라는 점에서 두 번째 후보로 선택했다.
 
 ### Qwen3.5-9B
 
-Qwen3.5-9B는 [Qwen3.5 공식 소개](https://qwen.ai/blog?id=qwen3.5)와 [공식 model card](https://huggingface.co/Qwen/Qwen3.5-9B)를 원본 자료로 참고했다. Vision encoder를 포함한 9B causal language model이며, vision과 language를 하나의 foundation에서 다루는 early-fusion multimodal training을 사용한다. Language model은 Gated DeltaNet과 Gated Attention을 결합한 hybrid layout으로 구성된다.
+Qwen3.5-9B는 [Qwen3.5 공식 소개](https://qwen.ai/blog?id=qwen3.5)와 [공식 model card](https://huggingface.co/Qwen/Qwen3.5-9B)를 원본 자료로 참고했다. Vision encoder를 포함한 9B causal language model이다. Vision과 language를 하나의 foundation에서 다루는 early-fusion multimodal training을 사용한다. Language model은 Gated DeltaNet과 Gated Attention을 결합한 hybrid layout으로 구성된다.
 
 특정 temporal ordering task용 checkpoint는 아니었다. 그래도 범용 시각·언어 이해와 reasoning capacity가 대회 데이터에 더 잘 적응할 가능성을 보고 비교에 포함했다.
 
-실험 결과는 예상을 벗어났다. Temporal·procedural reasoning에 맞춰 post-training된 TPRU가 대회 분포에서도 가장 강할 것이라는 보장은 없었다. 세 모델 중에는 Qwen3.5-9B가 가장 높았고, 이후 실험의 backbone으로 선택했다.
+실험 결과는 예상을 벗어났다. Temporal·procedural reasoning에 맞춰 post-training된 TPRU가 대회 분포에서도 가장 강할 것이라는 보장은 없었다. 세 모델 가운데 Qwen3.5-9B의 점수가 가장 높았다. 이후 실험의 backbone도 이 모델로 정했다.
 
-비교에는 zero-shot 결과를 섞지 않았다. 모두 같은 데이터와 비슷한 학습 예산으로 대회 입출력 형식에 적응시킨 뒤 비교했다. 완벽한 비교는 아니었지만, 적어도 모델 이름과 크기 외의 조건을 가능한 한 맞추려 했다.
+비교에는 zero-shot 결과를 섞지 않았다. 모두 같은 데이터와 비슷한 학습 예산으로 대회 입출력 형식에 적응시킨 뒤 비교했다. 완벽한 비교는 아니었다. 그래도 모델 이름과 크기 외의 조건은 가능한 한 맞추려 했다.
 
 ## 24-way 분류를 Pairwise와 Position으로 풀었다
 
@@ -84,7 +92,7 @@ Exact Match에서는 둘 다 똑같이 0점이다. 일반적인 24-way one-hot t
 - **Position:** A, B, C, D가 각각 1~4번째 중 어디인지 예측한다.
 - **Global:** 24개 순열 중 하나를 직접 예측한다.
 
-최종 설정은 Pairwise와 Position을 중심으로 학습했다. 추론할 때는 두 head가 내놓은 확률을 이용해 24개 유효 순열을 모두 채점하고, 가장 일관된 하나를 선택했다.
+최종 설정은 Pairwise와 Position을 중심으로 학습했다. 추론 단계에서는 두 head가 내놓은 확률로 24개 유효 순열을 모두 채점했다. 그중 가장 일관된 하나를 선택했다.
 
 ```text
 S(순열)
@@ -107,11 +115,11 @@ MultiHead 뒤에는 여러 병목 가설을 세웠다. 이미지 사이의 국�
 | Token Attention | 작은 변화 token이 평균 pooling에서 사라지는가? | **0.85689** | +0.00873 |
 | Event Boundary | 문장의 시간 단서를 frame과 직접 정렬하면 좋은가? | 0.84816 | 유지 |
 
-Token Attention은 기존 mean pooling을 버리지 않고, 문장을 참고하는 attention residual을 더했다. 사진 전체를 평균내는 동시에 문장과 관련된 작은 영역에 확대경을 한 번 더 대는 방식이었다. 점수는 올랐지만 token 수 증가, attention pooling, head 재학습이 한꺼번에 들어간 실험이었다. 어느 요소가 얼마나 기여했는지는 분리하지 못했다.
+Token Attention은 기존 mean pooling을 유지했다. 여기에 문장을 참고하는 attention residual을 더했다. 사진 전체를 평균내면서 문장과 관련된 작은 영역에 확대경을 한 번 더 대는 방식이었다. 점수는 올랐다. 다만 token 수 증가와 attention pooling, head 재학습이 한꺼번에 들어간 실험이었다. 어느 요소가 얼마나 기여했는지는 분리하지 못했다.
 
 Spatial Delta에서는 정답 순열의 평균 순위나 top-k 후보 품질이 좋아지는 구간이 있었지만 최종 top-1은 개선되지 않았다. 보조 지표가 좋아졌다는 사실과 leaderboard Exact Match가 좋아진다는 결론은 같지 않았다.
 
-Event Boundary도 기대만큼 움직이지 않았다. Backbone이 이미 시간 표현을 충분히 반영했을 수도 있고, 규칙으로 나눈 event slot이 실제 사건 구조와 맞지 않았을 수도 있다. 한 번의 실험으로 원인을 확정하기는 어려웠다.
+Event Boundary도 기대만큼 움직이지 않았다. Backbone이 이미 시간 표현을 충분히 반영했을 수 있다. 규칙으로 나눈 event slot이 실제 사건 구조와 맞지 않았을 가능성도 있다. 한 번의 실험으로 원인을 확정하기는 어려웠다.
 
 ## 답이 갈릴 때만 다시 검증했다
 
@@ -119,7 +127,7 @@ Event Boundary도 기대만큼 움직이지 않았다. Backbone이 이미 시간
 
 TTA는 이미지를 회전하거나 자르는 방식이 아니었다. 같은 네 장을 `[A, B, C, D]`, `[B, C, D, A]`처럼 서로 다른 입력 자리에 놓고 네 번 추론한 뒤, 결과를 원래 이미지 기준으로 되돌렸다.
 
-네 번의 top-1이 모두 같으면 그대로 끝냈다. 답이 갈릴 때만 여러 view에서 반복해서 지지된 후보 두 개를 골라 다시 검증했다. 모델에는 후보 순서를 하나씩 보여 주고, 세 인접 transition과 역방향 모순을 다시 확인하도록 요청했다. 새 forward에서 얻은 pair confidence를 기존 순열 점수와 합쳐 최종 후보를 골랐다.
+네 번의 top-1이 모두 같으면 그대로 끝냈다. 답이 갈릴 때만 여러 view에서 반복해서 지지된 후보 두 개를 골라 다시 검증했다. 모델에는 후보 순서를 하나씩 보여 줬다. 세 인접 transition과 역방향 모순을 다시 확인하도록 요청했다. 새 forward에서 얻은 pair confidence를 기존 순열 점수와 합쳐 최종 후보를 골랐다.
 
 ```text
 최종 점수
@@ -145,9 +153,9 @@ Frontier 다음에는 그럴듯해 보이는 가설을 여러 개 시험했다.
 
 가장 크게 떨어진 것은 모든 구성요소를 한꺼번에 공동 학습한 Frontier-2였다. 좋은 모듈을 한 objective에 넣어도 각 장점이 자동으로 보존되지는 않았다.
 
-Caption 실험에서도 예상과 다른 결과가 나왔다. 저해상도 이미지에서 놓치는 정보를 문장이 보완할 것이라고 예상했지만, 생성된 caption은 원본 이미지를 언어로 압축한 정보였다. 부정확한 설명이 섞이자 보완 정보보다 noise에 가까워졌다. 입력 정보가 많아져도 유효한 정보까지 늘지는 않았다.
+Caption 실험에서도 예상과 다른 결과가 나왔다. 저해상도 이미지에서 놓치는 정보를 문장이 보완할 것이라고 예상했다. 하지만 생성된 caption은 원본 이미지를 언어로 압축한 정보였다. 부정확한 설명이 섞이자 보완 정보보다 noise에 가까워졌다. 입력 정보가 많아져도 유효한 정보까지 늘지는 않았다.
 
-RL에서는 24개뿐인 action 중 sample마다 5개를 중복 허용해 뽑았다. 균등한 정책을 가정하면 서로 다른 action은 평균 약 4.6개만 관측하고, 정답 action이 한 번이라도 포함될 확률도 약 19.2%에 그친다. 대회가 끝나고 돌아보니 24개 action을 전부 평가해 expected reward를 계산하는 편이 sampling noise를 줄이는 더 자연스러운 설계였다.
+RL에서는 24개뿐인 action 중 sample마다 5개를 중복 허용해 뽑았다. 균등한 정책을 가정하면 서로 다른 action은 평균 약 4.6개만 관측한다. 정답 action이 한 번이라도 포함될 확률도 약 19.2%에 그친다. 대회가 끝난 뒤 돌아보니 24개 action을 전부 평가해 expected reward를 계산하는 편이 sampling noise를 줄이는 더 자연스러운 설계였다.
 
 ## 마지막에는 모델 규모를 확인했다
 
@@ -159,7 +167,7 @@ RL에서는 24개뿐인 action 중 sample마다 5개를 중복 허용해 뽑았�
 
 ### Checkpoint 선택 기준이 일관되지 않았다
 
-MultiHead는 validation Exact Match를 우선해 checkpoint를 골랐지만, 일부 adapter와 Frontier는 validation 없이 training loss의 최저점을 사용했다. Training loss와 leaderboard Exact Match가 반드시 같은 방향으로 움직이지 않는데도 선택 기준이 실험마다 달랐다.
+MultiHead는 validation Exact Match를 우선해 checkpoint를 골랐다. 반면 일부 adapter와 Frontier는 validation 없이 training loss의 최저점을 사용했다. Training loss와 leaderboard Exact Match가 반드시 같은 방향으로 움직이지 않는데도 선택 기준이 실험마다 달랐다.
 
 다시 한다면 모든 실험에 다음 순서를 고정할 것이다.
 
@@ -176,7 +184,7 @@ development Exact Match
 
 ### 한 실험에 여러 변경을 섞었다
 
-Token Attention에는 attention pooling뿐 아니라 token budget 증가와 head 재학습도 들어갔다. Frontier에는 개선된 모듈과 개선되지 않은 모듈이 함께 들어갔다. 최종 점수는 알 수 있었지만, 다음 실험에 무엇을 남겨야 하는지는 흐려졌다.
+Token Attention에는 attention pooling뿐 아니라 token budget 증가와 head 재학습도 들어갔다. Frontier에는 개선된 모듈과 개선되지 않은 모듈이 함께 들어갔다. 최종 점수는 알 수 있었다. 그러나 다음 실험에 무엇을 남겨야 하는지는 흐려졌다.
 
 ### Scale 탐색이 늦었다
 
@@ -186,13 +194,13 @@ Task-specific adapter를 먼저 깊게 파고 27B는 뒤늦게 시험했다. 다
 
 첫째, **출력 구조가 분명한 문제라면 그 구조를 학습과 디코딩에도 넣어야 한다.** Temporal ordering은 이미지 네 장을 독립적으로 분류하는 문제가 아니라 pair 관계와 전체 순열의 일관성을 함께 다루는 문제였다. Pairwise, Position, constrained decoding으로 이를 드러냈을 때 가장 큰 첫 개선이 나왔다.
 
-둘째, **좋은 보조 지표가 최종 목표의 개선을 보장하지 않는다.** Pair accuracy나 gold rank가 좋아져도 top-1 Exact Match는 그대로일 수 있다. 실험의 성공 기준은 구현 전에 정하고, 최종 평가 지표와 얼마나 정렬되는지 확인해야 한다.
+둘째, **좋은 보조 지표가 최종 목표의 개선을 보장하지 않는다.** Pair accuracy나 gold rank가 좋아져도 top-1 Exact Match는 그대로일 수 있다. 실험의 성공 기준은 구현 전에 정해야 한다. 최종 평가 지표와 얼마나 정렬되는지도 함께 확인해야 한다.
 
-셋째, **더 많은 모듈과 더 많은 입력이 항상 더 좋은 모델을 만들지는 않는다.** Caption은 noise가 될 수 있고, 공동 학습은 이미 잘 작동하던 모듈의 장점을 무너뜨릴 수 있었다. 추가한 요소마다 독립 기여를 확인할 수 있는 ablation이 필요하다.
+셋째, **더 많은 모듈과 더 많은 입력이 항상 더 좋은 모델을 만들지는 않는다.** Caption은 noise가 될 수 있다. 공동 학습은 이미 잘 작동하던 모듈의 장점을 무너뜨릴 수도 있었다. 추가한 요소마다 독립 기여를 확인할 수 있는 ablation이 필요하다.
 
 넷째, **GPU는 단순한 실행 장비가 아니라 검증 가능한 질문의 수를 결정한다.** 한 번의 긴 학습보다 비교 가능한 짧은 screening, 일관된 checkpoint 기준, 재현 가능한 artifact가 더 중요할 때가 많았다.
 
-마지막으로, **재현 가능성은 대회가 끝난 뒤 문서를 쓰며 챙기는 것이 아니었다.** 규정, 데이터 상태, 실험 설정, 실패한 가설, checkpoint 선택 이유를 처음부터 남겨야 다음 판단이 빨라진다. 이번 회고도 최고 점수 하나보다 어떤 질문을 던졌고, 왜 실패했으며, 다음에는 무엇을 바꿀지를 잊지 않기 위해 작성했다.
+마지막으로, **재현 가능성은 대회가 끝난 뒤 문서를 쓰며 챙기는 것이 아니었다.** 규정과 데이터 상태, 실험 설정, 실패한 가설, checkpoint 선택 이유를 처음부터 남겨야 다음 판단이 빨라진다. 이번 회고는 최고 점수 하나보다 어떤 질문을 던졌는지 기억하려고 썼다. 왜 실패했고 다음에는 무엇을 바꿀지도 함께 남겼다.
 
 ## 다시 참여하기 전 체크리스트
 
@@ -216,3 +224,37 @@ Task-specific adapter를 먼저 깊게 파고 27B는 뒤늦게 시험했다. 다
 - [Burn After Reading: Do Multimodal Large Language Models Truly Capture Order of Events in Image Sequences?](https://aclanthology.org/2025.findings-acl.1248/)
 - [Sort Story: Sorting Jumbled Images and Captions into Stories](https://aclanthology.org/D16-1091/)
 - [A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett-Luce](https://openaccess.thecvf.com/content/CVPR2026/html/Che_A_Stitch_in_Time_Learning_Procedural_Workflow_via_Self-Supervised_Plackett-Luce_CVPR_2026_paper.html)
+
+## 부록: 글에 나온 기술 용어
+
+본문에서 짧게 지나간 용어를 이 글의 실험 맥락에 맞춰 정리했다.
+
+### 평가와 실험 운영
+
+- **Public leaderboard:** 대회 도중 참가자가 확인할 수 있는 공개 점수표다. 이 글에서는 test data 중 70%로 계산된 예선 점수를 뜻한다.
+- **Exact Match Accuracy:** 예측한 출력 전체가 정답과 정확히 같을 때만 맞은 것으로 세는 지표다. 이 대회에서는 이미지 네 장의 위치를 모두 맞혀야 1점이었다.
+- **Benchmark:** 여러 모델이나 방법을 공통 조건에서 비교하기 위한 문제·데이터·평가 기준의 묶음이다.
+- **Development/validation set:** 학습에 직접 쓰지 않고 모델과 checkpoint를 선택하는 데 사용하는 검증용 데이터다.
+- **Checkpoint:** 학습 도중 특정 시점의 모델 weight와 상태를 저장한 파일이다. 어느 checkpoint를 고르느냐에 따라 최종 성능이 달라질 수 있다.
+- **Ablation:** 구성요소를 하나씩 빼거나 바꿔 각 요소가 결과에 미친 영향을 비교하는 실험이다.
+
+### 모델 학습과 메모리
+
+- **Backbone·model family·scale:** Backbone은 실험의 중심이 되는 기본 모델이다. Family는 같은 설계 계열을, scale은 9B·27B처럼 parameter 규모를 가리킨다. B는 parameter 10억 개 단위다.
+- **Vision encoder·early fusion:** Vision encoder는 이미지를 모델이 처리할 수 있는 표현으로 바꾼다. Early fusion은 비교적 이른 단계부터 시각 정보와 언어 정보를 함께 처리하는 방식이다.
+- **QLoRA:** 양자화한 기본 모델은 고정하고 작은 저랭크 행렬만 학습해 메모리 사용량을 줄이는 fine-tuning 방식이다.
+- **NF4 4-bit:** 신경망 weight 분포를 고려해 값을 4-bit로 표현하는 양자화 형식이다. 큰 모델을 제한된 VRAM에서 다룰 때 사용한다.
+- **Adapter·residual·zero-init:** Adapter는 기본 모델에 덧붙여 학습하는 작은 모듈이고, residual은 기존 표현에 새 모듈의 출력을 더하는 연결이다. Zero-init은 시작 시 새 경로의 기여가 0이 되도록 초기화하는 설정이다.
+- **Epoch:** 학습 데이터 전체를 한 번 모두 사용하는 학습 단위다.
+- **Token·token budget:** Token은 모델이 처리하는 정보 단위다. Image token은 이미지 영역의 특징을 나타내며, token budget은 한 번에 처리할 token 수의 한도다.
+- **Pooling·attention:** Pooling은 여러 token을 하나의 요약 표현으로 모은다. Mean pooling은 평균을 사용하고, attention은 입력과의 관련도에 따라 token별 가중치를 다르게 준다.
+- **Head·MultiHead:** Head는 backbone 표현을 받아 실제 예측값을 만드는 출력 모듈이다. 이 글의 MultiHead는 Pairwise와 Position 등 여러 예측 목표를 나눠 함께 학습한 구조다.
+
+### 학습과 추론
+
+- **MPO·CoT:** MPO는 선호 답변과 비선호 답변의 차이를 이용해 모델 응답을 조정하는 preference optimization 방식이다. CoT는 최종 답에 이르는 중간 추론 과정을 함께 생성하는 방식이다.
+- **Reinforcement learning·reward·action·GRPO:** Reinforcement learning은 모델이 action을 선택하고 받은 reward를 기준으로 선택 전략을 학습한다. GRPO는 여러 응답의 상대 보상을 이용해 policy를 업데이트하는 방법이다.
+- **TTA:** Test-Time Augmentation의 약자다. 학습 weight는 바꾸지 않고 같은 입력의 여러 변형을 추론한 뒤 결과를 합친다. 이 글에서는 이미지의 입력 슬롯 순서를 바꿨다.
+- **Multi-Turn verification:** 첫 예측으로 끝내지 않고 후보 답을 추가 추론에서 다시 검토하는 절차다. 이 글에서는 TTA 결과가 갈린 sample에만 적용했다.
+- **Constrained decoding:** 모델의 출력 후보를 유효한 형식으로 제한하는 추론 방식이다. 이 글에서는 가능한 24개 순열 중 하나만 선택하게 했다.
+- **Top-1·top-k:** Top-1은 점수가 가장 높은 후보 하나를, top-k는 점수가 높은 후보 k개를 뜻한다.
