@@ -1,0 +1,367 @@
+{
+  "created_at": "2026-10-15T10:19:15+09:00",
+  "items": [
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "9d4ea35d98912ae3ad32afa06ffa835fffecfc10aef311edca12c66106936494",
+      "canonical_url": "https://blog.naver.com/bestlaw007/224439982591",
+      "fetched_at": "2026-10-15T10:18:27+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "12f18695ed4278a6f03a4f72310d3e808503874446314edd2b2d35844e52985f",
+      "canonical_url": "https://blog.naver.com/blogboster/224436449355",
+      "fetched_at": "2026-10-15T10:18:27+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "50adf5585d1c23e197e571f748e62f1d385132b5bd61880eafd3a3af33796e14",
+      "canonical_url": "https://blog.naver.com/jovincicode/224357107166",
+      "fetched_at": "2026-10-15T10:18:28+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "04cf5977e5e478d1770a33f9a04c7dcf692cfb8db2f1f69c329713bfdc96fbe9",
+      "canonical_url": "https://blog.naver.com/jd_education/224440801803",
+      "fetched_at": "2026-10-15T10:18:29+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "b8617c493d6a007910811c9b1a11389d155c9303bb3268ba687fc2c630ada6f0",
+      "canonical_url": "https://blog.naver.com/kgedupass/224433199699",
+      "fetched_at": "2026-10-15T10:18:29+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "0504afd38ede10afaecfa35aea8f1a7aed77cced1f04ebb4f443334a1e9e2192",
+      "canonical_url": "https://blog.naver.com/ksw239999/224438685850",
+      "fetched_at": "2026-10-15T10:18:30+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "12be29cfb2751f353b4635203fbf8b63739e6d6da34b604b12e5bba5fe99d2d2",
+      "canonical_url": "https://blog.naver.com/lovelyeveryday_/224439137247",
+      "fetched_at": "2026-10-15T10:18:31+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "57d9a0213400444b2bd30a0745c1e96577fcd91c63488ae26c66b72322ce819e",
+      "canonical_url": "https://blog.naver.com/ekoedu_/224406113514",
+      "fetched_at": "2026-10-15T10:18:32+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "8e1c343c8ccfd4acdc8463fc2ae76959d76705351afbb6e5ac0d5ecffbb33100",
+      "canonical_url": "https://blog.naver.com/7fingersstudio/224433523563",
+      "fetched_at": "2026-10-15T10:18:32+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "24fbffb7c36106e701fe5b1a5ccdc989e9debf1ad06cd527f1ef289cd7809f52",
+      "canonical_url": "https://blog.naver.com/co_baby/224418339195",
+      "fetched_at": "2026-10-15T10:18:33+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "39084f18132721fc8d9d71a39fdfc91a8ee5362eb5b74b554502350c947a09da",
+      "canonical_url": "https://blog.naver.com/rippleforce/224368005452",
+      "fetched_at": "2026-10-15T10:18:34+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "b1586b67b873668c00783b539d3fc169e83c642947d50303bfd9375ea2d93ca2",
+      "canonical_url": "https://blog.naver.com/wkdtldud2621/224439267935",
+      "fetched_at": "2026-10-15T10:18:34+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "cc711a4d2b6bdddac486853cccf6ae5c940fdfa648391267ed9f042b1458f1e9",
+      "canonical_url": "https://blog.naver.com/withrami/224358593278",
+      "fetched_at": "2026-10-15T10:18:36+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "ddcd0612bd5247292b417286c7cb54ba3374d946fcb9dcd9bdbf2fd005f7d46f",
+      "canonical_url": "https://blog.naver.com/soliloquiess/224437355127",
+      "fetched_at": "2026-10-15T10:18:36+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "2f09f71579ca26e059d34e0808189309f20ca5296364cc83aa7717d798f73a1a",
+      "canonical_url": "https://blog.naver.com/surround_mk/224369831918",
+      "fetched_at": "2026-10-15T10:18:37+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "bcc4a0d126482e55c717921b6ded440b6b1fe041d534bad660edb781a6359b44",
+      "canonical_url": "https://blog.naver.com/inernet/224382954709",
+      "fetched_at": "2026-10-15T10:18:38+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "1dc68dd867ed0b3d9a370afc47aadfb85ff4502ad4606a7a57daae758eadcbcb",
+      "canonical_url": "https://blog.naver.com/bearcoding/224436843363",
+      "fetched_at": "2026-10-15T10:18:38+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "f6778cf8f41769c9c6ce068085d47fed34fd9f92c1e0cd198094d4a07139ddc4",
+      "canonical_url": "https://blog.naver.com/aromi913/224375545011",
+      "fetched_at": "2026-10-15T10:18:39+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "dc25d5e25c2518d45b792a329b34244d0fc6077bd1f628eb2c2638501eca307b",
+      "canonical_url": "https://blog.naver.com/marilyn0/224428666098",
+      "fetched_at": "2026-10-15T10:18:40+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "ebcadba33f16199d451c802d62cc1054535a4be7369d098382242af17200916a",
+      "canonical_url": "https://blog.naver.com/imssonice/224364370118",
+      "fetched_at": "2026-10-15T10:18:40+09:00",
+      "retained_until": "2026-10-22",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "e01f851b-6596-43ac-a4c5-d7dcda971dcc",
+      "canonical_url": "https://velog.io/@k-svelte-master/ai-generated-tests-mutation-testing",
+      "fetched_at": "2026-10-15T10:18:42+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "3b37cb3d-ef8f-4b16-bb52-059525d16784",
+      "canonical_url": "https://velog.io/@teo/ai-native-fe",
+      "fetched_at": "2026-10-15T10:18:43+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "15dcd68f-8c95-4130-a091-ad6d47748f47",
+      "canonical_url": "https://velog.io/@cs_security/%EA%B3%B5%EA%B2%A9-%EC%A7%95%ED%9B%84-%ED%83%90%EC%A7%80-004-%EC%A0%95%EC%83%81-%EB%A1%9C%EA%B7%B8%EC%9D%B8%EA%B3%BC-%EA%B3%84%EC%A0%95-%EA%B3%B5%EA%B2%A9-%EC%A7%95%ED%9B%84-%EA%B5%AC%EB%B6%84",
+      "fetched_at": "2026-10-15T10:18:45+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "628f8154-1318-4f55-bee0-948e0116cc28",
+      "canonical_url": "https://velog.io/@qlgks1/Jev-%EC%9D%BC%EB%8B%A8-%EC%93%B0%EB%A9%B4%EC%84%9C-%EC%B0%8D%EB%A8%B9%ED%95%98%EA%B8%B0-%EC%82%AC%EC%9A%A9%EB%B2%95%EB%B6%80%ED%84%B0-%EB%8B%A4%EB%A5%B8-LLM-4%EA%B0%9C-%EB%B9%84%EA%B5%90-%EB%B2%A4%EC%B9%98%EB%A7%88%ED%81%AC",
+      "fetched_at": "2026-10-15T10:18:46+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "f5dea610-f7b1-48bf-9834-251592d52048",
+      "canonical_url": "https://velog.io/@linkshimcat/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8-3%EC%A4%84-%EC%8D%BC%EB%8A%94%EB%8D%B0-AI-%EC%87%BC%EC%B8%A0-%EC%9E%91-%ED%9B%84%EA%B8%B0-%EC%95%8C%EB%A0%A4%EB%93%9C%EB%A6%BC",
+      "fetched_at": "2026-10-15T10:18:48+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "b2b46f2b-88c5-4748-a73a-6cfca2b00ea8",
+      "canonical_url": "https://velog.io/@rxd123/%EA%B0%9C%EB%B0%9C%EC%9E%90-%ED%98%B8%EC%86%8C%EC%9D%B8%EC%97%90%EC%84%9C-%EC%A7%84%EC%A7%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A1%9C-%ED%98%84%EC%9E%A5%EC%8B%A4%EC%8A%B5-%ED%9A%8C%EA%B3%A0%EB%A1%9D",
+      "fetched_at": "2026-10-15T10:18:49+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "876dafd3-9c08-4497-bc00-27b8b8956be5",
+      "canonical_url": "https://velog.io/@github_card/github-readme-stats-not-working",
+      "fetched_at": "2026-10-15T10:18:50+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "31096610-d028-48ef-b149-cb74ac28eda8",
+      "canonical_url": "https://velog.io/@wha1eson/%ED%98%B9%EC%8B%9C...-%EB%8B%B9%EA%B7%BC%EC%9D%B4%EC%84%B8%EC%9A%94-3%EB%85%84-%EC%B0%A8-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EB%8B%B9%EA%B7%BC-%EC%9D%B8%ED%84%B4%EC%8B%AD-%ED%95%A9%EB%A5%98%EA%B8%B0",
+      "fetched_at": "2026-10-15T10:18:51+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "5ce912d0-6870-41a9-aff2-bab2158aae9f",
+      "canonical_url": "https://velog.io/@ik_e/3%EC%9D%BC-%ED%94%84%EB%A1%9C%EC%A0%9D",
+      "fetched_at": "2026-10-15T10:18:53+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "0fe77f43-f3df-4dd0-b9e6-1ef2dd8e285f",
+      "canonical_url": "https://velog.io/@cconac/%ED%94%84%EB%A1%9C%EB%8D%95%ED%8A%B8-%EB%A9%94%EC%9D%B4%EC%BB%A4%EC%9D%B4%EA%B8%B0%EB%8F%84-%ED%95%98%EB%A9%B4%EC%84%9C-%EC%82%AC%EC%9A%A9%EC%9E%90%EA%B0%80-%EB%90%A0-%EC%88%98-%EC%9E%88%EB%8B%A4%EB%8A%94-%EC%A0%90",
+      "fetched_at": "2026-10-15T10:18:54+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "6d43e20d-b9eb-461c-87cd-e08b8b573861",
+      "canonical_url": "https://velog.io/@4dinno/GitGitHub-%EC%A0%95%EB%B3%B5%ED%95%98%EA%B8%B0-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5-GitHub-Flow-Vs.-Git-Flow",
+      "fetched_at": "2026-10-15T10:18:55+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "df393ef1-2243-4c2d-877e-942e2696f2a0",
+      "canonical_url": "https://velog.io/@hhhhhyeonnnnn/AI%EB%81%BC%EB%A6%AC-%EB%8C%80%ED%99%94%ED%95%98%EB%8A%94%EB%8D%B0-%EC%9E%90%EC%97%B0%EC%96%B4%EA%B0%80-%ED%95%84%EC%9A%94%ED%95%A0%EA%B9%8C",
+      "fetched_at": "2026-10-15T10:18:56+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "01032666-8174-49b1-822d-5f96040bc270",
+      "canonical_url": "https://velog.io/@jsh990620/CH22.-C-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-Interface",
+      "fetched_at": "2026-10-15T10:18:57+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "a5143383-6527-4778-a018-c3d90dbcfeca",
+      "canonical_url": "https://velog.io/@hoheesu/%EB%A9%8D%EC%B2%AD%ED%95%B4%EC%A7%80%EC%A7%80-%EC%95%8A%EA%B8%B0-%EC%9C%84%ED%95%B4-%EB%8A%90%EB%A6%AC%EA%B2%8C-%EC%83%9D%EA%B0%81%ED%95%98%EA%B8%B0",
+      "fetched_at": "2026-10-15T10:18:59+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "5577fec6-5d46-4603-8cb4-c8b23423b825",
+      "canonical_url": "https://velog.io/@dev_alchemist/Keras-Functional-API-%EC%9E%85%EB%AC%B8-%EB%8B%A4%EC%A4%91-%EC%9E%85%EB%A0%A5%EA%B3%BC-%EB%8B%A4%EC%A4%91-%EC%B6%9C%EB%A0%A5-%EC%8B%A0%EA%B2%BD%EB%A7%9D-%EB%A7%8C%EB%93%A4%EA%B8%B0",
+      "fetched_at": "2026-10-15T10:19:07+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "23346151-bb8f-4559-82ad-5cc4d31a7397",
+      "canonical_url": "https://velog.io/@dxxh_e/AI%EA%B0%80-%EB%B9%A8%EB%9D%BC%EC%A7%88%EC%88%98%EB%A1%9D-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%97%90%EA%B2%8C-%EB%82%A8%EB%8A%94-%EC%9D%BC",
+      "fetched_at": "2026-10-15T10:19:08+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "15fae6db-a904-4f35-9e20-317f1f902fa4",
+      "canonical_url": "https://velog.io/@haru02/PyTorch-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%A0%95%EC%9D%98-%EB%AA%A8%EB%8D%B8-%EA%B5%AC%ED%98%84-nn.Module-%EC%83%81%EC%86%8D%EB%B6%80%ED%84%B0-%EB%AA%A8%EB%8D%B8-%EA%B4%80%EB%A6%AC%EA%B9%8C%EC%A7%80",
+      "fetched_at": "2026-10-15T10:19:11+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "1c6abb66-36c5-4001-a681-3227a1978d8d",
+      "canonical_url": "https://velog.io/@lotus0204/%ED%9A%8C%EC%82%AC-%EB%B0%96%EC%9D%98-%EA%B0%9C%EB%B0%9C%EC%9E%90-02.-%EC%84%A0%ED%83%9D%EC%A7%80%EA%B0%80-%EB%A7%8E%EC%95%84%EC%A7%80%EC%9E%90-%EA%B8%B8%EC%9D%84-%EC%9E%83%EC%97%88%EB%8B%A4",
+      "fetched_at": "2026-10-15T10:19:12+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "002982aa-a1e4-40a2-bc21-2e0ccf38b989",
+      "canonical_url": "https://velog.io/@y3arkim/AI-%EB%AA%A8%EB%8D%B8%EB%8F%84-%EC%83%81%ED%99%A9%EC%97%90-%EB%A7%9E%EA%B2%8C-%EA%B3%A8%EB%9D%BC-%EC%8D%A8%EC%95%BC-%ED%95%9C%EB%8B%A4-Microsoft-Foundry-%EB%AA%A8%EB%8D%B8-%EC%B9%B4%ED%83%88%EB%A1%9C%EA%B7%B8-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+      "fetched_at": "2026-10-15T10:19:13+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-10-15/blog_bodies.jsonl",
+      "candidate_id": "ec7cb74b-cf14-48be-bc6a-a8a04695d498",
+      "canonical_url": "https://velog.io/@teamuns2026/Temp-Title",
+      "fetched_at": "2026-10-15T10:19:15+09:00",
+      "retained_until": "2026-10-22",
+      "source": "velog",
+      "status": "ok"
+    }
+  ],
+  "raw_dir": "raw/2026-10-15",
+  "retention_days": 7
+}
