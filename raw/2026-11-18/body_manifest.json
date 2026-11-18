@@ -1,0 +1,367 @@
+{
+  "created_at": "2026-11-18T13:05:51+09:00",
+  "items": [
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "9593b0e809181dc5c2e9687eb35b83e42403ccfbc66db8718270740bd2196c97",
+      "canonical_url": "https://blog.naver.com/myungit2/224473172031",
+      "fetched_at": "2026-11-18T13:04:30+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "a75d04c7671cd4e6b39d4356ee7b5c91f10b67272b78b3051c3473d26fedfa2b",
+      "canonical_url": "https://blog.naver.com/ai-makelog/224481012512",
+      "fetched_at": "2026-11-18T13:04:31+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "cfeed46ef6d1f7f2571939a2943c379b8357816ee83f0fe2220cc8d4ddf4870a",
+      "canonical_url": "https://blog.naver.com/keikolovekeiko/224459907262",
+      "fetched_at": "2026-11-18T13:04:32+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "0eb2637ea0a22dcd861d69b24b69fa9f65a761a2d93fd95524dd73886046a462",
+      "canonical_url": "https://blog.naver.com/maritimeknowledgelab/224470800772",
+      "fetched_at": "2026-11-18T13:04:33+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "1200e346aebf87c4f7ed12c424c6dfa049343d8a892fced627c2a12baed2dee5",
+      "canonical_url": "https://blog.naver.com/minseo123/224475657290",
+      "fetched_at": "2026-11-18T13:04:34+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "d10d997cfee6f4fdf2e28f8a46c5b06b9cc755fc8e104e3072f759a427328479",
+      "canonical_url": "https://blog.naver.com/zztop73/224480608845",
+      "fetched_at": "2026-11-18T13:04:35+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "ccbb8eb08beb6b5073099a4acf88a84457346e0db522608578293846362dc329",
+      "canonical_url": "https://blog.naver.com/tbnmaoasc377/224475905192",
+      "fetched_at": "2026-11-18T13:04:36+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "382bb067eac6cbba445d8b424669ef48cdb7f6f8b71165ca0de11bd7a89ce68f",
+      "canonical_url": "https://blog.naver.com/k6441630/224469354031",
+      "fetched_at": "2026-11-18T13:04:37+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "1995a6bdc93af943ea0a61c0289834f0a553882268092846c09153a054793f7c",
+      "canonical_url": "https://blog.naver.com/whffkaos386/224477083636",
+      "fetched_at": "2026-11-18T13:04:38+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "e3b6ebb8187bf9908337219a99e5eda399017fbdf7a56193a8162d2b9b9b78e8",
+      "canonical_url": "https://blog.naver.com/callijee25/224475900676",
+      "fetched_at": "2026-11-18T13:04:39+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "613833a5742346690a7cdbf72795520b0ddd61f03220167c4be6045fa7ac6102",
+      "canonical_url": "https://blog.naver.com/k_d2lay/224466660829",
+      "fetched_at": "2026-11-18T13:04:39+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "177110a36522e440688a7382de04050bbb739cf3ba8c1023ad9ca31b69127940",
+      "canonical_url": "https://blog.naver.com/le_voyage_03/224438504268",
+      "fetched_at": "2026-11-18T13:04:40+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "df9af8aebeddadf162a781fee66fcddb93fad7ad1cfe0b6cbe1c929d816c4b4f",
+      "canonical_url": "https://blog.naver.com/cyberjmlee12/224469501941",
+      "fetched_at": "2026-11-18T13:04:41+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "70be2523e80f7076209ea009e6804237e5375060e5f6cf20845e6e743dc59b66",
+      "canonical_url": "https://blog.naver.com/bjyoung57/224481212736",
+      "fetched_at": "2026-11-18T13:04:43+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "44cc5f5b937a3f0b6ea9c61c1c1fabaca1d4c7efe23a577f9926c07e3fedb427",
+      "canonical_url": "https://blog.naver.com/ghejjhhj/224478272030",
+      "fetched_at": "2026-11-18T13:04:43+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "db99d51ab3a542bcab4126727b8f402039740fadec095811f4b186bd88a8d65d",
+      "canonical_url": "https://blog.naver.com/ryusi79/224467211859",
+      "fetched_at": "2026-11-18T13:04:44+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "d0798a899fa044956b63fb7f39869996dca50c3af671769ae92b800630a9bb6c",
+      "canonical_url": "https://blog.naver.com/sweetfarm_/224364229800",
+      "fetched_at": "2026-11-18T13:04:45+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "a440d8929a033d2d5fa795459daca759bd3adcecfc179728a78257f3d0c0916d",
+      "canonical_url": "https://blog.naver.com/cyberjmlee12/224478401325",
+      "fetched_at": "2026-11-18T13:04:46+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "16e2121c35d94835f8e91f1894f28a7a254386f517d818c77b8b9e51cddacf95",
+      "canonical_url": "https://blog.naver.com/lyc2004y/224470355380",
+      "fetched_at": "2026-11-18T13:04:47+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "df07c90d7ae8c0fef6a1262716b01b6f9a4123726f9d215fb5eb8b720a42a869",
+      "canonical_url": "https://blog.naver.com/hongssi627/224458246069",
+      "fetched_at": "2026-11-18T13:04:48+09:00",
+      "retained_until": "2026-11-25",
+      "source": "naver",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "e5ee85e4-5381-464f-8664-529f537ec154",
+      "canonical_url": "https://velog.io/@harudle/%EC%84%9C%EB%A5%98-100%EA%B0%9C-%EA%B4%91%ED%83%88%ED%95%98%EA%B3%A0-%EC%9D%B8%EC%8A%A4%ED%83%80%ED%88%B0-%EA%B7%B8%EB%A6%AC%EB%9F%AC-%EA%B0%91%EB%8B%88%EB%8B%A4",
+      "fetched_at": "2026-11-18T13:04:50+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "05fda8aa-bfa7-4ecb-a2df-77ca8a476f95",
+      "canonical_url": "https://velog.io/@min_dot/%EC%A7%81%EC%9E%A5%EC%9D%B8-%EA%B8%B0%ED%9A%8D%EC%9E%90-%EC%96%B8%EC%A0%A0%EA%B0%80%EB%8A%94-%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C%EA%B0%80-%EB%90%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C",
+      "fetched_at": "2026-11-18T13:04:51+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "12f1d8a1-f112-4e11-81ff-568084f9526e",
+      "canonical_url": "https://velog.io/@spencer0124/SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4-AI-%ED%95%B4%EC%BB%A4%ED%86%A4-%EB%B3%B8%EC%84%A0-%ED%9B%84%EA%B8%B0",
+      "fetched_at": "2026-11-18T13:04:53+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "48a385d2-cf78-4a1f-a71b-2d8cd4f6e0bb",
+      "canonical_url": "https://velog.io/@4dinno/React-%EC%8B%AC%EC%98%A4%ED%95%9C-react-router-dom%EC%9D%98-%EC%84%B8%EA%B3%84",
+      "fetched_at": "2026-11-18T13:04:55+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "3c97da2d-b100-4d4c-9ab1-9938d31eeed0",
+      "canonical_url": "https://velog.io/@jinriro/AI-%EA%B0%80-%EC%93%B4-%EA%B8%80%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B1%B0%EB%B6%80%EA%B0%90",
+      "fetched_at": "2026-11-18T13:04:57+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "d8329d72-a640-449a-9711-6a589fc8e483",
+      "canonical_url": "https://velog.io/@jun2k5/lwc-17-datatable",
+      "fetched_at": "2026-11-18T13:04:59+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "2bd7826e-c1fd-41fa-b13a-c5b0b3f6a757",
+      "canonical_url": "https://velog.io/@sungjucho/%EB%A7%A4%EB%B6%84-1000%EB%A7%8C-%EA%B1%B4-%EC%A1%B0%ED%9A%8C%EB%90%98%EB%8A%94-%EC%8A%A4%EC%BC%80%EC%A4%84%EB%9F%AC-%EA%B3%A03%EC%9D%B4-%EC%A7%81%EC%A0%91-%EC%B5%9C%EC%A0%81%ED%99%94-%ED%95%9C-%EC%8D%B0",
+      "fetched_at": "2026-11-18T13:05:02+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "fc6d4a75-cfe0-4328-80dd-dd1e77ff690b",
+      "canonical_url": "https://velog.io/@dev-hsl-960221/claude-code-codex-review",
+      "fetched_at": "2026-11-18T13:05:05+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "df947e27-5db9-4fcb-b62f-3606003fce15",
+      "canonical_url": "https://velog.io/@kimscastle/30%EB%B6%84-%EB%A7%8C%EC%97%90-%EB%A7%8C%EB%93%A0-%EA%B2%8C%EC%9E%84%EC%9D%B4-%EC%9D%B4%ED%8B%80-%EB%A7%8C%EC%97%90-1%EB%A7%8C-%EB%B2%88-%ED%94%8C%EB%A0%88%EC%9D%B4%EB%90%9C%EA%B1%B4%EC%97%90-%EA%B4%80%ED%95%98%EC%97%AC",
+      "fetched_at": "2026-11-18T13:05:07+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "82c1fee4-e637-4291-8750-778ccbf6ef9e",
+      "canonical_url": "https://velog.io/@danielyang-95/%EC%B5%9C%EC%8B%A0-%EB%B3%B4%EC%95%88%EC%B7%A8%EC%95%BD%EC%A0%90-ifuksauz",
+      "fetched_at": "2026-11-18T13:05:11+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "1ce97988-8030-437f-8d0e-41a9065e8683",
+      "canonical_url": "https://velog.io/@qtaghdi/%EB%8B%B9%EC%8B%A0%EC%9D%B4-%ED%94%84%EB%A1%9C%ED%95%84%EC%9D%84-%EC%95%A0%EB%8B%88-%ED%94%84%EC%82%AC%EB%A1%9C-%EB%B0%94%EA%BF%94%EC%95%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0-ft3y0jor",
+      "fetched_at": "2026-11-18T13:05:11+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "error"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "30b7bb1d-9008-4349-8b9c-2e247c8d7091",
+      "canonical_url": "https://velog.io/@bbzjun/%EC%98%A4%ED%94%88ai-gpt-62-%EC%95%84%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%86%94-%EA%B3%B5%EA%B0%9C%EB%B9%84%EC%9A%A9-3%EB%B6%84%EC%9D%98-1%EB%A1%9C-%EC%A4%84%EC%9D%B4%EA%B3%A0-%EC%82%AC%EC%9D%B4%EB%B2%84-%EC%9C%84%ED%97%98-%EB%93%B1%EA%B8%89%EC%9D%80-%EC%B9%98%EB%AA%85%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%83%81%ED%96%A5-2026-11-17",
+      "fetched_at": "2026-11-18T13:05:18+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "134caa39-d816-4315-9e87-20443a1c70c7",
+      "canonical_url": "https://velog.io/@dlwjd8023/%EA%B9%83%EB%8F%84-%EB%AA%BB-%EC%93%B0%EB%8D%98-%EB%82%B4%EA%B0%80-Techeer-of-the-Year%EB%A5%BC-%EB%B0%9B%EA%B8%B0%EA%B9%8C%EC%A7%80-%ED%85%8C%EC%BB%A4%EC%97%90%EC%84%9C%EC%9D%98-1%EB%85%84-%ED%9A%8C%EA%B3%A0",
+      "fetched_at": "2026-11-18T13:05:22+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "8b18d357-8dd3-4a69-a04c-cc695ff61254",
+      "canonical_url": "https://velog.io/@0verfl0w767/%EC%99%80-%EC%9D%B4%EB%9F%B0-%EC%93%B0%EB%A0%88%EA%B8%B0-%EA%B0%99%EC%9D%80-GCP",
+      "fetched_at": "2026-11-18T13:05:27+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "4b678be9-f892-4a27-aace-9f3381c959d3",
+      "canonical_url": "https://velog.io/@jinriro/E.P-06-%EB%82%98%EC%9D%98-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%97%90-Jev-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0",
+      "fetched_at": "2026-11-18T13:05:30+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "b040c531-3d4c-402f-91d5-8dad120bc7ad",
+      "canonical_url": "https://velog.io/@sbleeedu1-ai/2026.11.17-Day-66-NC-AI-%EC%BB%A4%EC%8A%A4%ED%85%80-AI-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%96%91%EC%84%B1%EA%B3%BC%EC%A0%95",
+      "fetched_at": "2026-11-18T13:05:32+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "c7a7034a-5e71-437c-bc2a-fb90e5112c73",
+      "canonical_url": "https://velog.io/@lgwk0642/%ED%95%99%EA%B5%90%EC%99%80-%ED%9A%8C%EC%82%AC%EA%B0%80-%EB%8B%A4%EB%A5%B8-%EA%B2%83",
+      "fetched_at": "2026-11-18T13:05:40+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "41dd8bea-60c8-4726-a4c5-b677c1cb16fc",
+      "canonical_url": "https://velog.io/@isanghao/KV-Cache-Quantization-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%A0%88%EC%95%BD%EA%B3%BC-%EC%84%B1%EB%8A%A5",
+      "fetched_at": "2026-11-18T13:05:42+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "d75c05f4-292f-460b-94a0-46f23a197f09",
+      "canonical_url": "https://velog.io/@dbwls/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%A2%80-%EA%BE%B8%EB%A9%B0-%EB%8B%AC%EB%9D%BC%EA%B3%A0-Fable5.2%ED%95%9C%ED%85%8C-%ED%95%B4%EB%B4%A4%EB%8A%94%EB%8D%B0",
+      "fetched_at": "2026-11-18T13:05:46+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    },
+    {
+      "body_path": "raw/2026-11-18/blog_bodies.jsonl",
+      "candidate_id": "4b9ae8fe-1859-40ab-81bd-32374f530289",
+      "canonical_url": "https://velog.io/@captain1/%EC%9D%B4%EC%A0%A0-%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8-%EA%B0%95%EB%82%A8-%EC%B9%B4%ED%8B%B0%EC%95%84-24%EC%9D%BC%EC%B0%A8",
+      "fetched_at": "2026-11-18T13:05:51+09:00",
+      "retained_until": "2026-11-25",
+      "source": "velog",
+      "status": "ok"
+    }
+  ],
+  "raw_dir": "raw/2026-11-18",
+  "retention_days": 7
+}
